@@ -1,0 +1,32 @@
+{
+  "name": "nunbars",
+  "version": "0.0.0",
+  "description": "Handlerbars-like templating engine that builds virtual DOMs.",
+  "main": "nunbars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeyt/nunbars"
+  },
+  "keywords": [
+    "handlebars",
+    "react"
+  ],
+  "author": "Sergey Todyshev <stodyshev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeyt/nunbars/issues"
+  },
+  "homepage": "https://github.com/sergeyt/nunbars",
+  "dependencies": {
+    "htmlparser": "~1.7.7",
+    "bennu": "git://github.com/mattbierner/bennu.git",
+    "coffee-script": "~1.8.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "gulp-mocha": "~1.1.0"
+  }
+}
